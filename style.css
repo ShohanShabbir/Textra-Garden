@@ -1,0 +1,209 @@
+
+.header{
+
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.header img{
+
+    width:100px;
+    
+}
+
+.nav{
+
+    margin-left: 750px;
+}
+
+.row{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row img{
+
+    width: 100%;
+}
+.row h1{
+
+    font-size: 45px;
+    font-family: Poppins;
+    align-items: center;
+}
+.row p{
+    font-size: 20px;
+}
+
+.row .buy-btn {
+    padding: 10px 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+.row .buy-btn:hover{
+
+    color: black;
+}
+
+.product .product-card, .footer{
+
+    border: none;
+}
+
+.product h3{
+
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 900;
+}
+.product h5{
+
+    font-size: 25px;
+}
+
+.product h4{
+
+    font-weight: 900;
+    font-size: 30px;
+    color: green;
+}
+
+.product .footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product img{
+
+    height: 400px;
+}
+
+.product {
+
+    font-family: Poppins;
+}
+
+.product .buy-btn{
+
+    margin-left: 120px;
+}
+
+.product .buy-btn:hover{
+
+    color: black;
+}
+
+.help-section h5,p{
+
+    font-family: Poppins;
+}
+.help-section h5{
+
+    font-weight: 900;
+    font-size: 20px;
+}
+.help-section .help-card{
+
+    border: none;
+}
+.About {
+
+    height: 250px;
+    font-family: Poppins;
+    border: none;
+
+}
+.About img{
+
+    height: 200px;
+    width: 200px;
+    margin-right: 60px;
+}
+.About h3{
+     
+   margin-top: 40px;
+}
+.About .btn-about, input{
+
+    padding: 0px 20px;
+}
+.offer h3{
+
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+.offer h5{
+
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+
+@media(max-width:768px){
+
+    .nav{
+        margin-left: 0;
+    }
+    .header{
+
+        font-size:18px;
+    }
+    .row h1{
+
+        font-size: 35px;
+    }
+    .row img{
+
+        max-width: 85%;
+    }
+    .row p{
+
+        font-size: 16px;
+    }
+    .product h3{
+
+        text-align: center;
+    }
+    .help-section .help-card h5,p{
+
+        text-align: center;
+    }
+    .help-section .help-card img{
+
+        width: 40%;
+        margin-left: 30%;
+    
+    }
+    .About img{
+
+        height: 200px;
+        width: 150px;
+        position: relative;
+    }
+    .About h3,p{
+
+        text-align: left;
+    }
+    .About input{
+
+        display: grid;
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .offer h3{
+
+        text-align: center;
+    }
+
+
+}
+
